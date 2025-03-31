@@ -23,10 +23,9 @@ A single combined prompt is sent to the API to assess both criteria, and the sys
 8. [Contributing](#contributing)
 9. [License](#license)
 10. [Acknowledgements](#acknowledgements)
-
 ---
 
-## 1. Installation
+### 1. Installation
 
 Below are **all** installation steps:
 
