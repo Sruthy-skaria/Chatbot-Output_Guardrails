@@ -9,13 +9,13 @@ A single combined prompt is sent to the API to assess both criteria, and the sys
 
 ---
 
-## Table of Contents
+# Table of Contents
 
 1. [Installation](#1-installation)
 2. [Configuration](#2-configuration)
 3. [Usage Instructions](#3-usage-instructions)
-   - [Using as a Python Module](#using-as-a-python-module)
-   - [Command-line Usage](#command-line-usage)
+   - [Using as a Python Module](#31-using-as-a-python-module)
+   - [Command-line Usage](#32-command-line-usage)
 4. [Usage Example](#4-usage-example)
 5. [How It Works](#5-how-it-works)
 6. [Customization](#6-customization)
@@ -25,7 +25,7 @@ A single combined prompt is sent to the API to assess both criteria, and the sys
 10. [Acknowledgements](#10-acknowledgements)
 ---
 
-### 1. Installation
+# 1. Installation
 
 Below are **all** installation steps:
 
@@ -58,7 +58,7 @@ echo %OPENAI_API_KEY%
 
 ---
 
-## 2. Configuration
+# 2. Configuration
 
 Before running the system, confirm that:
 
@@ -67,9 +67,9 @@ Before running the system, confirm that:
 
 ---
 
-## 3. Usage Instructions
+# 3. Usage Instructions
 
-### Using as a Python Module
+## 3.1 Using as a Python Module
 
 You can integrate the guardrail functionality into your Python code. For example:
 
@@ -89,7 +89,7 @@ async def evaluate_response():
 await (evaluate_response())
 ```
 
-### Command-line Usage
+## 3.2 Command-line Usage
 
 You can also run the evaluation script directly. The `guardrail_executer.py` file accepts three arguments (question, answer, context). If not provided, default values are used.
 
@@ -105,7 +105,7 @@ If you provide an incorrect number of arguments, the script will display usage i
 
 ---
 
-## 4. Usage Example
+# 4. Usage Example
 
 Here’s a complete usage example demonstrating how to run the evaluation as a Python module:
 
@@ -139,7 +139,7 @@ if __name__ == "__main__":
 
 ---
 
-## 5. How It Works
+# 5. How It Works
 
 1. **Combined Prompt Creation:**
    - The `GuardrailExecutor` (in `guardrails.py`) constructs a single prompt instructing OpenAI to evaluate both:
@@ -166,7 +166,7 @@ if __name__ == "__main__":
 
 ---
 
-## 6. Customization
+# 6. Customization
 
 - **Prompt Adjustments:**
   Modify the `_create_combined_prompt` method in `guardrails.py` to alter the evaluation criteria or instructions.
@@ -179,7 +179,7 @@ if __name__ == "__main__":
 
 ---
 
-## 7. Troubleshooting
+# 7. Troubleshooting
 
 - **Missing API Key:**
   Make sure `OPENAI_API_KEY` is set. The system will not run without a valid key.
@@ -192,7 +192,7 @@ if __name__ == "__main__":
 
 ---
 
-## 8. Contributing
+# 8. Contributing
 
 We welcome contributions! If you have improvements or bug fixes, please follow these steps:
 1. Fork the repository.
@@ -203,13 +203,13 @@ For major changes, consider opening an issue first to discuss your proposals.
 
 ---
 
-## 9. License
+# 9. License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 10. Acknowledgements
+# 10. Acknowledgements
 
 - **OpenAI:** This system uses the ChatCompletion API for evaluating chatbot responses.
 - **Community:** Thank you to all contributors and supporters who have helped improve this project.
