@@ -11,18 +11,18 @@ A single combined prompt is sent to the API to assess both criteria, and the sys
 
 ## Table of Contents
 
-1. [Installation](#installation)
-2. [Configuration](#configuration)
-3. [Usage Instructions](#usage-instructions)
+1. [Installation](#1-installation)
+2. [Configuration](#2-configuration)
+3. [Usage Instructions](#3-usage-instructions)
    - [Using as a Python Module](#using-as-a-python-module)
    - [Command-line Usage](#command-line-usage)
-4. [Usage Example](#usage-example)
-5. [How It Works](#how-it-works)
-6. [Customization](#customization)
-7. [Troubleshooting](#troubleshooting)
-8. [Contributing](#contributing)
-9. [License](#license)
-10. [Acknowledgements](#acknowledgements)
+4. [Usage Example](#4-usage-example)
+5. [How It Works](#5-how-it-works)
+6. [Customization](#6-customization)
+7. [Troubleshooting](#7-troubleshooting)
+8. [Contributing](#8-contributing)
+9. [License](#9-license)
+10. [Acknowledgements](#10-acknowledgements)
 ---
 
 ### 1. Installation
