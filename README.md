@@ -11,18 +11,18 @@ A single combined prompt is sent to the API to assess both criteria, and the sys
 
 ## Table of Contents
 
-## Installation {#installation}
-## Configuration {#configuration}
-## Usage Instructions {#usage-instructions}
-### Using as a Python Module {#using-as-a-python-module}
-### Command-line Usage {#command-line-usage}
-## Usage Example {#usage-example}
-## How It Works {#how-it-works}
-## Customization {#customization}
-## Troubleshooting {#troubleshooting}
-## Contributing {#contributing}
-## License {#license}
-## Acknowledgements {#acknowledgements}
+1. [Installation](#installation)
+2. [Configuration](#configuration)
+3. [Usage Instructions](#usage-instructions)
+   - [Using as a Python Module](#using-as-a-python-module)
+   - [Command-line Usage](#command-line-usage)
+4. [Usage Example](#usage-example)
+5. [How It Works](#how-it-works)
+6. [Customization](#customization)
+7. [Troubleshooting](#troubleshooting)
+8. [Contributing](#contributing)
+9. [License](#license)
+10. [Acknowledgements](#acknowledgements)
 
 ---
 
